@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "mongoose": "^6.4.2"
-  }
+  },
+  "name": "socialnetwork-nosql",
+  "description": "## Description",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeshaw97/Socialnetwork-Nosql.git"
+  },
+  "author": "abe shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abeshaw97/Socialnetwork-Nosql/issues"
+  },
+  "homepage": "https://github.com/abeshaw97/Socialnetwork-Nosql#readme"
 }
