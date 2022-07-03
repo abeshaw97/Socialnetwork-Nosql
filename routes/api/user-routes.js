@@ -11,6 +11,7 @@ const {
     addFriend,
     deleteFriend
   } = require('../../controllers/users-controller');
+const { Users } = require('../../models');
 
 // -- Directs to: /api/users <GET, POST>
 router.route('/').get(getAllUsers).post(createUsers);
@@ -21,5 +22,5 @@ router.route('/:id').get(getUsersById).put(updateUsers).delete(deleteUsers);
 // -- Directs to: /api/users/:userId/friends/:friendId <POST, DELETE>
 router.route('/:id/friends/:friendId').post(addFriend).delete(deleteFriend)
 
-// Module export router
-module.exports = router; 
+// Module export usersr
+module.exports = Users; 

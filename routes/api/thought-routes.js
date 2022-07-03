@@ -11,6 +11,7 @@ const {
     deleteReaction
 
 } = require('../../controllers/thoughts-controller');
+const { Thoughts } = require('../../models');
 
 router.route('/').get(getAllThoughts);
 
@@ -26,4 +27,4 @@ router.route('/:thoughtId/reactions').post(addReaction);
 router.route('/:thoughtId/reactions/:reactionId').delete(deleteReaction);
 
 
-module.exports = router;
+module.exports = Thoughts;
