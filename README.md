@@ -17,7 +17,7 @@ npm start
 
 ## Usage 
 Watch video in order to see how everything will run...
-watch video-(link will go here)
+watch video-(https://drive.google.com/file/d/1VG80oEonOsgG2dzAZ38vmIo9RJk0fhJS/view?usp=sharing)
 
 ## Questions
 If you have any questions you can reach me at shawabra@msu.edu
