@@ -11,9 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(require('./routes'));
 
 // Connects mongoose
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network-api',
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/socialnetwork-nosql',
  {
-  useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
